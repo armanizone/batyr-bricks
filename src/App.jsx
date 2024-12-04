@@ -112,8 +112,8 @@ function App() {
           
           
           <footer className="relative mt-16">
-            <h1 className="absolute -top-7 left-1/2 -translate-x-1/2 z-10 text-2xl p-3 rounded-xl bg-white uppercase font-bold tracking-wider border">Оставить заявку</h1>
-            <div className="bg-zinc-50 p-4 -mx-3 border py-6 max-w-md mx-auto">
+            <h1 className="absolute -top-7 left-1/2 -translate-x-1/2 z-10 p-3 rounded-xl bg-white uppercase font-bold tracking-wider border">Оставить заявку</h1>
+            <div className="bg-zinc-50 p-4 border py-6 max-w-md mx-auto">
               <TextInput
                 label='ФИО'
               />
