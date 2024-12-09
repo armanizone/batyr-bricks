@@ -10,6 +10,8 @@ import p3 from './assets/3.jpeg'
 import p4 from './assets/4.jpeg'
 import p5 from './assets/5.jpeg'
 import p6 from './assets/6.jpeg'
+import p7 from './assets/7.jpeg'
+import p8 from './assets/8.jpeg'
 
 import v1 from './assets/1.mp4'
 import v2 from './assets/2.mp4'
@@ -18,6 +20,8 @@ import v4 from './assets/4.mp4'
 import v5 from './assets/5.mp4'
 import v6 from './assets/6.mp4'
 import v7 from './assets/7.mp4'
+import v8 from './assets/8.mp4'
+import v9 from './assets/9.mp4'
 
 import wh from './assets/whatsapp.svg'
 
@@ -48,7 +52,7 @@ const useScrollIntoView = (offset = 0) => {
 
 function App() {
 
-  const pics = [ p1, v1, p2, v2, p3, v3, p4, v4, p5, v5, p6, v6, v7]
+  const pics = [ p1, v1, p2, v2, p3, v3, p4, v4, p5, v5, p6, v6, v7, v8, v9]
 
   const [menu, menu_h] = useDisclosure()
 
@@ -243,9 +247,9 @@ function App() {
               <div className="grid md:grid-cols-2 gap-4 border shadow-md md:-mx-3 mt-4 bg-zinc-50 py-8">
                 <div className="text-center">
                   <img 
-                    src='https://enki.kz/sites/default/files/styles/catalog_image/public/ryad_14_compressed.jpg?itok=BUyEKyli' 
+                    src={p7}
                     alt=""
-                    className="mx-auto" 
+                    className="mx-auto object-contain h-64 " 
                   />
                   <p className="mt-4 font-bold text-lg">Одинарный полнотелый</p>
                   <ul>
@@ -256,9 +260,9 @@ function App() {
                 </div>
                 <div className="text-center">
                   <img 
-                    src='https://enki.kz/sites/default/files/styles/catalog_image/public/ryad_14_compressed.jpg?itok=BUyEKyli' 
+                    src={p8}
                     alt=""
-                    className="mx-auto" 
+                    className="mx-auto object-contain h-64 " 
                   />
                   <p className="mt-4 font-bold text-lg">Полуторный пустотелый</p>
                   <ul>
@@ -329,11 +333,10 @@ function App() {
             
 
             <div className="py-10 sm:py-16 container w-full rounded-[15px]">
-              <div className="grid sm:grid-cols-2 md:grid-cols-4 justify-between gap-10 w-full">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-4 justify-between gap-10 w-full">
                 <div className="space-y-6 text-white">
                   LOGO
                 </div>
-                {/* INFO Section */}
                 <div className="space-y-6">
                   <h3 className="text-sm text-white uppercase">Компания</h3>
                   <ul className="space-y-2 font-semibold">
@@ -343,22 +346,30 @@ function App() {
                     <li className="cursor-pointer text-white">Контакты</li>
                   </ul>
                 </div>
-                {/* RESOURCES Section */}
                 <div className="space-y-6">
                   <h3 className="text-sm text-white uppercase">Адрес</h3>
                   <ul className="space-y-2 font-semibold">
-                    <li className="cursor-pointer text-white">Толе би 1\2</li>
+                    <li className="cursor-pointer text-white">Город Алматы, Узынагаш</li>
                   </ul>
                 </div>
-                {/* COMPANY Section */}
                 <div className="space-y-6">
-                  <h3 className="text-sm text-white uppercase">Телефоны</h3>
+                  <h3 className="text-sm text-white uppercase">Контакты</h3>
                   <ul className="space-y-2 font-semibold">
-                    <li className="cursor-pointer text-white">+7 (702) 429 9141</li>
-                    <li className="cursor-pointer text-white">+7 (702) 429 9141</li>
+                    <a href="https://wa.me/77479198506" target="_blank">
+                      <li className="cursor-pointer text-white whitespace-nowrap">+7 (747) 919 8506 (Макс)</li>
+                    </a>
+                    <a href="https://wa.me/77003897070" target="_blank">
+                      <li className="cursor-pointer text-white whitespace-nowrap">+7 (700) 389 7070 (Дамир)</li>
+                    </a>
+                    <a href="https://wa.me/77754044210 " target="_blank">
+                      <li className="cursor-pointer text-white whitespace-nowrap">+7 (775) 404 4210 (Аман)</li>
+                    </a>
+                    <a href="https://wa.me/77005005544" target="_blank">
+                      <li className="cursor-pointer text-white whitespace-nowrap">+7 (700) 500 5544 (Ермахан)</li>
+                    </a>
+
                   </ul>
                 </div>
-                {/* Newsletter Section */}
 
               </div>
             </div>
@@ -368,7 +379,7 @@ function App() {
         </div>
       </div>
       
-      <a href="https://wa.me/1XXXXXXXXXX" target="_blank">
+      <a href="https://wa.me/77479198506" target="_blank">
         <img src={wh} alt="" className="fixed z-20 bottom-4 right-4 w-14" />
       </a>
     </>
