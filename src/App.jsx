@@ -132,28 +132,28 @@ function App() {
             <Carousel.Slide>
               <div className="relative w-full h-full bg-red-500">
                 <img src={p1} alt="" className="w-full object-cover h-[400px]" />
-                <div className="absolute top-1/2 -translate-y-1/2 left-4 max-w-sm ">
+                {/* <div className="absolute top-1/2 -translate-y-1/2 left-4 max-w-sm ">
                   <p className="text-3xl text-white font-bold">Заголовок</p>
                   <p className="text-lg mt-4 text-white tracking-wider">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dicta? </p>
-                </div>
+                </div> */}
               </div>
             </Carousel.Slide>
             <Carousel.Slide>
               <div className="relative w-full h-full bg-blue-500">
                 <img src={p2} alt="" className="w-full object-cover h-[400px]" />
-                <div className="absolute top-1/2 -translate-y-1/2 left-4 max-w-sm ">
+                {/* <div className="absolute top-1/2 -translate-y-1/2 left-4 max-w-sm ">
                   <p className="text-3xl text-white font-bold">Заголовок</p>
                   <p className="text-lg mt-4 text-white tracking-wider">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dicta? </p>
-                </div>
+                </div> */}
               </div>
             </Carousel.Slide>
             <Carousel.Slide>
               <div className="relative w-full h-full bg-green-500">
                 <img src={p3} alt="" className="w-full object-cover h-[400px]" />
-                <div className="absolute top-1/2 -translate-y-1/2 left-4 max-w-sm ">
+                {/* <div className="absolute top-1/2 -translate-y-1/2 left-4 max-w-sm ">
                   <p className="text-3xl text-white font-bold">Заголовок</p>
                   <p className="text-lg mt-4 text-white tracking-wider">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, dicta? </p>
-                </div>
+                </div> */}
               </div>
             </Carousel.Slide>
           </Carousel>
