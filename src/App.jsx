@@ -72,6 +72,8 @@ function App() {
             <header className="flex gap-4 justify-between items-center">
 
               <img src={logo} alt="" className="w-24 h-24 -m-4 sm-m-6 -ml-5"/>
+
+              <p className="block sm:hidden tracking-wide font-semibold uppercase whitespace-nowrap">Кирпичный завод</p>
               
               <div className="hidden sm:flex gap-4 items-center font-semibold">
                 <p className="uppercase cursor-pointer" onClick={() => scrollIntoView('1')}>О нас</p>
@@ -79,7 +81,6 @@ function App() {
                 <p className="uppercase cursor-pointer" onClick={() => scrollIntoView('3')}>Фотогалерея</p>
                 <p className="uppercase cursor-pointer" onClick={() => scrollIntoView('4')}>Контакты</p>
               </div>
-
 
               <Burger
                 opened={menu}
@@ -183,7 +184,7 @@ function App() {
                   </p>
 
                   <p className="mt-2 tracking-wide font-semibold ml-3">
-                  Ежегодный объем выпуска продукции составляет от 20 до 22 миллионов кирпичей.
+                    Ежегодный объем выпуска продукции составляет от 20 до 22 миллионов кирпичей.
                   </p>
                 </div>
 
