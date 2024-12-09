@@ -356,7 +356,7 @@ function App() {
                   <h3 className="text-sm text-white uppercase">Контакты</h3>
                   <ul className="space-y-2 font-semibold">
                     <a href="https://wa.me/77479198506" target="_blank">
-                      <li className="cursor-pointer text-white whitespace-nowrap">+7 (747) 919 8506 (Макс)</li>
+                      <li className="cursor-pointer text-white whitespace-nowrap">+7 (747) 919 8506 (Максут)</li>
                     </a>
                     <a href="https://wa.me/77003897070" target="_blank">
                       <li className="cursor-pointer text-white whitespace-nowrap">+7 (700) 389 7070 (Дамир)</li>
