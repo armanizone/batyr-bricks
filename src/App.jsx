@@ -4,6 +4,8 @@ import ReactPlayer from "react-player";
 
 import { Burger, Button, Collapse, TextInput, Textarea } from "@mantine/core";
 
+import logo from './assets/logo.png'
+
 import p1 from './assets/1.jpeg'
 import p2 from './assets/2.jpeg'
 import p3 from './assets/3.jpeg'
@@ -67,10 +69,9 @@ function App() {
       <div className="pt-8 md:pt-20 ">
         <div className="container bg-white p-4 sm:p-6 shadow-md">
           <div className="w-full flex-col">
-            <header className="flex gap-4 justify-between">
-              <div>
-                LOGO
-              </div>
+            <header className="flex gap-4 justify-between items-center">
+
+              <img src={logo} alt="" className="w-24 h-24 -m-4 sm-m-6 -ml-5"/>
               
               <div className="hidden sm:flex gap-4 items-center font-semibold">
                 <p className="uppercase cursor-pointer" onClick={() => scrollIntoView('1')}>О нас</p>
@@ -89,7 +90,7 @@ function App() {
             <Collapse
               in={menu}
             >
-              <div className="flex sm:hidden flex-col gap-4  font-semibold">
+              <div className="flex sm:hidden flex-col gap-4  font-semibold mt-4">
                 <p className="uppercase cursor-pointer" onClick={() => {
                   scrollIntoView('1')
                   menu_h.toggle()
@@ -335,7 +336,9 @@ function App() {
             <div className="py-10 sm:py-16 container w-full rounded-[15px]">
               <div className="grid sm:grid-cols-2 lg:grid-cols-4 justify-between gap-10 w-full">
                 <div className="space-y-6 text-white">
-                  LOGO
+                  <div className="w-fit invert brightness-100 contrast-100">
+                    <img src={logo} alt="" className="w-24" />
+                  </div>
                 </div>
                 <div className="space-y-6">
                   <h3 className="text-sm text-white uppercase">Компания</h3>
